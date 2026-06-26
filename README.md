@@ -25,6 +25,18 @@ Recommended GitHub Pages settings:
 - Branch: `main`
 - Folder: `/ (root)`
 
+If branch publishing is unavailable, use the included GitHub Actions workflow:
+
+- Source: GitHub Actions
+- Workflow: `Deploy BunMixer public site`
+
+With a repository-admin token, the equivalent helper commands are:
+
+```sh
+Review/enable_github_pages.sh --wait
+Review/enable_github_pages.sh --source actions --run-workflow --wait
+```
+
 Do not finalize App Store metadata while these URLs return 404. After all three
 URLs return HTTP 2xx, use the privacy and support URLs above in App Store
 Connect.
