@@ -24,17 +24,6 @@ Recommended GitHub Pages settings:
 - Branch: `main`
 - Folder: `/ (root)`
 
-If a repository-admin token is available, the same setup can be applied from a shell:
-
-```sh
-GITHUB_TOKEN=<repo-admin-token> Review/enable_github_pages.sh --wait
-```
-
-Do not finalize App Store metadata while these URLs return 404. After all three URLs return HTTP 2xx, run:
-
-```sh
-Review/finalize_public_submission.sh \
-  --privacy-url https://facta-leopard.github.io/BunMixer/privacy.html \
-  --support-url https://facta-leopard.github.io/BunMixer/support.html \
-  --check-remote
-```
+Do not finalize App Store metadata while these URLs return 404. After all three
+URLs return HTTP 2xx, use the privacy and support URLs above in App Store
+Connect.
