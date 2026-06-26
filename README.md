@@ -9,6 +9,7 @@ Publish from the repository root:
 - Home: `index.html`
 - Privacy Policy URL: `privacy.html`
 - Support URL: `support.html`
+- Jekyll bypass marker: `.nojekyll`
 
 The privacy and support pages include English, Korean, Japanese, Simplified Chinese, Traditional Chinese, Spanish, German, and French sections in the same page.
 
